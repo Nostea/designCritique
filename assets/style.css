@@ -1,0 +1,261 @@
+@font-face {
+  font-family: Inter;
+  src: url(./fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Inter, sans-serif;
+  color: var(--color-black);
+}
+
+img {
+  max-width: 100%;
+}
+
+:root {
+  --regular-font-size: 2.1rem;
+  --color-black: #2b2c2e;
+  --color-gray: #9fa2a7;
+  --style-width: 85vw;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: var(--color-black);
+}
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  line-height: 4.7rem;
+  font-size: 3.9rem;
+  padding-bottom: 1.6rem;
+}
+
+h2 {
+  font-weight: bold;
+  line-height: 7.4rem;
+  font-size: 5.5rem;
+  padding-bottom: 1.6rem;
+}
+
+h3 {
+  font-weight: bold;
+  line-height: 3.2rem;
+  font-size: 2.3rem;
+  padding-bottom: 1.6rem;
+}
+
+p {
+  font-size: var(--regular-font-size);
+  line-height: 3.2rem;
+  color: var(--color-black);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1vh;
+  width: 90vw;
+  margin: auto;
+  padding-bottom: 6vh;
+}
+
+.links a {
+  padding-right: 2.3rem;
+}
+
+.logo {
+  font-weight: bold;
+  line-height: 3.8rem;
+  font-size: 2.4rem;
+  margin-left: -10vw;
+}
+
+.button-1 {
+  text-align: center;
+  border: 1px solid #48494c;
+  padding: 0.7rem 5rem 0.7rem 5rem;
+  border-radius: 0.5rem;
+}
+
+.button-1:hover {
+  background-color: #48494c;
+  transition: ease-in-out 0.2s;
+  color: #f1f1f4;
+}
+
+.price-cap {
+  font-size: 6.1rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  padding-bottom: 1.7rem;
+}
+
+.style-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: var(--style-width);
+  gap: 5vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.subtitle {
+  color: var(--color-gray);
+  font-size: 2rem;
+  line-height: 2.2rem;
+}
+
+.deliverables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: var(--style-width);
+  gap: 0;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.deliverables article {
+  width: 50vw;
+  margin-left: -3vw;
+}
+
+.deliverables img {
+  max-width: 50vw;
+}
+
+.deliverables p {
+  font-size: 1.9rem;
+  line-height: 2.6rem;
+  color: #848689;
+  padding-bottom: 3.1rem;
+}
+
+.deliverables h2 {
+  padding-bottom: 6.2rem;
+}
+
+.how-it-works {
+  background-color: #f1f1f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: var(--style-width);
+  gap: 3%;
+  padding: 5% 0% 5% 5%;
+  flex-direction: row-reverse;
+}
+
+.how-it-works p {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: #848689;
+  padding-bottom: 1.8rem;
+}
+
+.how-it-works h2 {
+  font-size: 5rem;
+  line-height: 5rem;
+  padding-bottom: 2rem;
+}
+
+.how-it-works img {
+  max-width: 50%;
+}
+
+.critique {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 50vw;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.critique p {
+  font-size: 1.5rem;
+  color: var(--color-gray);
+}
+
+.conversion-design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60vw;
+  margin: auto;
+}
+
+.big-number {
+  font-size: 30rem;
+  line-height: 30rem;
+  font-weight: 500;
+  color: #f1f1f4;
+}
+
+.conversion-design p {
+  font-size: 2rem;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.conversion-design p:first-of-type {
+  margin-top: -3rem;
+}
+
+.guy {
+  max-height: 200px;
+  top: 41rem;
+  left: 33rem;
+  position: relative;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.costume-guy {
+  width: 20%;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  width: 80vw;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+footer p {
+  font-size: 1.6rem;
+  color: #9fa2a7;
+  padding-bottom: 2vh;
+}
+
+footer a {
+  font-size: 1.6rem;
+  color: var(--color-black);
+}
